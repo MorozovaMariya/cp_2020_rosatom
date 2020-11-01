@@ -105,8 +105,6 @@ def get_answ(q):
     return status, answ
 
 
-#url = 'http://foo.appspot.com/abc?def=ghi'
-
 
 @Request.application
 def application(request):
@@ -124,7 +122,5 @@ def application(request):
 if __name__ == '__main__':
     from werkzeug.serving import run_simple
     #run_simple('localhost', 5000, application)
-    run_simple('10.0.0.6', 5000, application)
-
-   
+    run_simple('10.0.0.6', 5000, application) 
   
